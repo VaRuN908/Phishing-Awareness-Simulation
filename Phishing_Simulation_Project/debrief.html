@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Simulation Debrief</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="bg-slate-50 font-sans">
+
+    <div class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow-lg rounded-xl border-t-8 border-red-500">
+        
+        <div class="text-center">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-red-100 rounded-full mb-4">
+                <i class="fas fa-exclamation-triangle text-red-600 text-4xl"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-gray-800">You just clicked a simulated phishing link!</h1>
+            <p class="text-lg text-gray-600 mt-2">Don't worry, this was just a safe simulation. No data was stolen.</p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div class="bg-blue-50 p-6 rounded-lg">
+                <h3 class="text-xl font-bold text-blue-800 mb-4"><i class="fas fa-search mr-2"></i>What did you miss?</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li class="flex items-start"><i class="fas fa-check text-red-500 mt-1 mr-2"></i> <strong>Urgency:</strong> The email claimed your password would expire in 24 hours to make you panic.</li>
+                    <li class="flex items-start"><i class="fas fa-check text-red-500 mt-1 mr-2"></i> <strong>Generic Greeting:</strong> It said "Dear User" instead of your name.</li>
+                    <li class="flex items-start"><i class="fas fa-check text-red-500 mt-1 mr-2"></i> <strong>Suspicious Link:</strong> The login page URL was not the official company domain.</li>
+                </ul>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg">
+                <h3 class="text-xl font-bold text-green-800 mb-4"><i class="fas fa-shield-alt mr-2"></i>How to stay safe</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <strong>Verify Sender:</strong> Always check the actual email address, not just the display name.</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <strong>Hover Links:</strong> Hover over buttons to see the real URL before clicking.</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <strong>Don't Rush:</strong> Scammers use urgency to trick you. Take a moment to think.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="mt-10 text-center">
+            <a href="project.html" class="inline-block px-8 py-3 bg-slate-800 text-white font-semibold rounded-lg hover:bg-slate-700 transition">
+                Return to Project Presentation
+            </a>
+        </div>
+        
+    </div>
+
+    <footer class="text-center mt-10 text-gray-500 text-sm mb-10">
+        Navitech Cybersecurity Awareness Program &copy; 2026
+    </footer>
+
+</body>
+</html>
