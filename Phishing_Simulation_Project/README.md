@@ -28,5 +28,5 @@ This tool is for **EDUCATIONAL PURPOSES ONLY**.
 *   The author is not responsible for any misuse of this code.
 
 ## 👨‍💻 Author
-**[Your Name]**
+**Varun Bhardwaj**
 *Navitech Cybersecurity Internship Project*
